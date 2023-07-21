@@ -13,6 +13,7 @@ function actionByKey(key) {
     Digit4: 'wood',
     Digit5: 'log',
   }
+  return keyActionMap[key];
 }
 
 export const useKeyboard = () => {
